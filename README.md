@@ -2,6 +2,8 @@
 Capture screenshots from .NET, using either native Windows APIs or .NET methods.
 Screenshots can be saved to disk using a randomly generated file name, or output to the console in base64 encoded form (does not touch disk).
 
+Can be execued using beacons execute-assembly.
+
 
 ## Usage
 
@@ -29,3 +31,6 @@ Capture a full window screenshot using .NET methods and output to the console as
 ```
 SharpShot.exe /outformat:base64
 ```
+## Screenshot
+
+![screenshot](https://github.com/two06/SharpShot/blob/master/Screenshot%20from%202020-03-09%2016-36-29.png)
