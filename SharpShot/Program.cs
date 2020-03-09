@@ -174,16 +174,16 @@ namespace SharpShot
         private static void printUsage()
         {
             Console.WriteLine("Capture a full windows screenshot and save to disk using the Windows API:");
-            Console.WriteLine(@"    SharpShot.exe /outfolder:""c:\windows\temp"" /outformat:img /native");
+            Console.WriteLine(@"    SharpShot.exe /outfolder:c:\windows\temp /outformat:img /native");
             Console.WriteLine("");
             Console.WriteLine("Capture a full window screenshot and save to disk, using .NET methods:");
-            Console.WriteLine(@"    SharpShot.exe /outfolder:""c:\windows\temp"" /outformat:img");
+            Console.WriteLine(@"    SharpShot.exe /outfolder:c:\windows\temp /outformat:img");
             Console.WriteLine("");
             Console.WriteLine("Capture a full window screenshot and write to the console as gzip compressed base64 using the Windows API:");
-            Console.WriteLine(@"    SharpShot.exe /outfolder:""c:\windows\temp"" /outformat:img /native");
+            Console.WriteLine(@"    SharpShot.exe /outfolder:c:\windows\temp /outformat:img /native");
             Console.WriteLine("");
             Console.WriteLine("Capture a full window screenshot and write to the console as gzip compressed base64 using .NET methods:");
-            Console.WriteLine(@"    SharpShot.exe /outfolder:""c:\windows\temp"" /outformat:img");
+            Console.WriteLine(@"    SharpShot.exe /outfolder:c:\windows\temp /outformat:img");
         }
     }
 }
