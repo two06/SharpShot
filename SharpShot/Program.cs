@@ -180,10 +180,10 @@ namespace SharpShot
             Console.WriteLine(@"    SharpShot.exe /outfolder:c:\windows\temp /outformat:img");
             Console.WriteLine("");
             Console.WriteLine("Capture a full window screenshot using the Windows API and write to the console as base64:");
-            Console.WriteLine(@"    SharpShot.exe /outfolder:c:\windows\temp /outformat:img /native");
+            Console.WriteLine(@"    SharpShot.exe /outformat:base64 /native");
             Console.WriteLine("");
             Console.WriteLine("Capture a full window screenshot using .NET methods and write to the console as base64:");
-            Console.WriteLine(@"    SharpShot.exe /outfolder:c:\windows\temp /outformat:img");
+            Console.WriteLine(@"    SharpShot.exe /outformat:base64");
         }
     }
 }
